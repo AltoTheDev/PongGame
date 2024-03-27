@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\",
+  "WorkspaceRootPath": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\My_First_Cpp_Game\\win32_platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\win32_platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\win32_platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\My_First_Cpp_Game\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "utils.cpp",
-              "DocumentMoniker": "C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\My_First_Cpp_Game\\utils.cpp",
+              "DocumentMoniker": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\utils.cpp",
               "RelativeDocumentMoniker": "My_First_Cpp_Game\\utils.cpp",
-              "ToolTip": "C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\My_First_Cpp_Game\\utils.cpp",
+              "ToolTip": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\utils.cpp",
               "RelativeToolTip": "My_First_Cpp_Game\\utils.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -39,11 +39,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "renderer.cpp",
-              "DocumentMoniker": "C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp",
+              "DocumentMoniker": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp",
               "RelativeDocumentMoniker": "My_First_Cpp_Game\\renderer.cpp",
-              "ToolTip": "C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp",
+              "ToolTip": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp",
               "RelativeToolTip": "My_First_Cpp_Game\\renderer.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -54,9 +54,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "win32_platform.cpp",
-              "DocumentMoniker": "C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\My_First_Cpp_Game\\win32_platform.cpp",
+              "DocumentMoniker": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\win32_platform.cpp",
               "RelativeDocumentMoniker": "My_First_Cpp_Game\\win32_platform.cpp",
-              "ToolTip": "C:\\Users\\Arcti\\Desktop\\bar_CPP\\My_First_Cpp_Game\\My_First_Cpp_Game\\win32_platform.cpp",
+              "ToolTip": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\win32_platform.cpp",
               "RelativeToolTip": "My_First_Cpp_Game\\win32_platform.cpp",
               "ViewState": "AQIAAFoAAAAAAAAAAAAowGYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
