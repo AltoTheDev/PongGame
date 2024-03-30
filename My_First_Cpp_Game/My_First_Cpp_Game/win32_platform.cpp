@@ -15,7 +15,9 @@ struct Render_State
 
 global_variable Render_State render_state;
 
+#include "platform_common.cpp"
 #include "renderer.cpp"
+#include "game.cpp"
 
 
 LRESULT CALLBACK window_callback(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
@@ -108,27 +110,78 @@ int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int n
 
 	HWND window = CreateWindow(window_class.lpszClassName, "My First Game!", WS_OVERLAPPEDWINDOW | WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, 1280, 720, 0, 0, hInstance, 0);
 	HDC hdc = GetDC(window);
+
+	Input input = {};
+
+	float delta_time = 0.016666f;
+	LARGE_INTEGER frame_begin_time;
+	QueryPerformanceCounter(&frame_begin_time);
+
+	float performance_frequencey; 
+	{
+		LARGE_INTEGER perf;
+		QueryPerformanceFrequency(&perf);
+		performance_frequencey = (float)perf.QuadPart;
+	}
+
 	
 	while (running) 
 	{
 		// Input
 		MSG message;
+
+		for (int i = 0; i < BUTTON_COUNT; i++) 
+		{
+			input.buttons[i].changed = false;
+		}
+
 		while (PeekMessage(&message, window, 0, 0, PM_REMOVE)) 
 		{
-			TranslateMessage(&message);
-			DispatchMessage(&message);
+			switch (message.message)
+			{
+			case WM_KEYUP:
+			case WM_KEYDOWN:
+			{
+				u32 vk_code = (u32)message.wParam;
+				bool is_down = ((message.lParam & (1 << 31)) == 0);
+
+#define process_button(b, vk)\
+case vk: {\
+input.buttons[b].changed = is_down != input.buttons[b].is_down;\
+input.buttons[b].is_down = is_down;\
+} break;
+
+				switch (vk_code) {
+					process_button(BUTTON_UP, VK_UP);
+					process_button(BUTTON_DOWN, VK_DOWN);
+					process_button(BUTTON_W, 'W');
+					process_button(BUTTON_S, 'S');
+					// process_button(BUTTON_W, "W");
+					// process_button(BUTTON_S, "S");
+					// process_button(BUTTON_ENTER, VK_RETURN);
+				}
+			} break;
+
+			default: {
+				TranslateMessage(&message);
+				DispatchMessage(&message);
+			}
+			}
+
 		}
 
 		// Simulate
-		clear_screen(0xff5500);
-		draw_rect(0, 0, 1, 1, 0xff22);
-		draw_rect(30, 30, 5, 5, 0xffff22);
-		draw_rect(-20, 20, 8, 3, 0xffff22);
+		simulate_game(&input, delta_time);
 
 
 		// Render 
 		StretchDIBits(hdc, 0, 0, render_state.width, render_state.height, 0, 0, render_state.width, render_state.height, render_state.memory, &render_state.bitmap_info, DIB_RGB_COLORS, SRCCOPY);
 
+		
+		LARGE_INTEGER frame_end_time;
+		QueryPerformanceCounter(&frame_end_time);
+		delta_time = (float)(frame_end_time.QuadPart - frame_begin_time.QuadPart) / performance_frequencey;
+		frame_begin_time = frame_end_time;
 	}
 
 

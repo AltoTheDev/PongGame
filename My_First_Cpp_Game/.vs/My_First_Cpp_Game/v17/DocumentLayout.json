@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\win32_platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\platform_common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\platform_common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F8B2EA6-1D25-4A64-9259-96DA58A73967}|My_First_Cpp_Game\\My_First_Cpp_Game.vcxproj|solutionrelative:My_First_Cpp_Game\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,31 +30,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "game.cpp",
+              "DocumentMoniker": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\game.cpp",
+              "RelativeDocumentMoniker": "My_First_Cpp_Game\\game.cpp",
+              "ToolTip": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\game.cpp",
+              "RelativeToolTip": "My_First_Cpp_Game\\game.cpp",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAHAAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-27T20:06:21.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "platform_common.cpp",
+              "DocumentMoniker": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\platform_common.cpp",
+              "RelativeDocumentMoniker": "My_First_Cpp_Game\\platform_common.cpp",
+              "ToolTip": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\platform_common.cpp",
+              "RelativeToolTip": "My_First_Cpp_Game\\platform_common.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-27T19:49:23.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "utils.cpp",
               "DocumentMoniker": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\utils.cpp",
               "RelativeDocumentMoniker": "My_First_Cpp_Game\\utils.cpp",
               "ToolTip": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\utils.cpp",
               "RelativeToolTip": "My_First_Cpp_Game\\utils.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-27T14:53:51.376Z"
+              "WhenOpened": "2024-03-27T14:53:51.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "renderer.cpp",
               "DocumentMoniker": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp",
               "RelativeDocumentMoniker": "My_First_Cpp_Game\\renderer.cpp",
               "ToolTip": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\renderer.cpp",
               "RelativeToolTip": "My_First_Cpp_Game\\renderer.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAzAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-27T14:19:00.044Z"
+              "WhenOpened": "2024-03-27T14:19:00.044Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,7 +92,7 @@
               "RelativeDocumentMoniker": "My_First_Cpp_Game\\win32_platform.cpp",
               "ToolTip": "C:\\Users\\baldr\\OneDrive\\Desktop\\MyCPP\\PongGame\\My_First_Cpp_Game\\My_First_Cpp_Game\\win32_platform.cpp",
               "RelativeToolTip": "My_First_Cpp_Game\\win32_platform.cpp",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAowGYAAAAeAAAA",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAcwLYAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-27T12:02:21.188Z",
               "EditorCaption": ""

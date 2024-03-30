@@ -1,4 +1,26 @@
-﻿  win32_platform.cpp
+﻿  game.cpp
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(13,10): error C2144: syntax error: 'void' should be preceded by ';'
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(14,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(35,10): error C2144: syntax error: 'bool' should be preceded by ';'
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(36,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(35,1): error C2086: 'int internal': redefinition
+  C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(13,1):
+  see declaration of 'internal'
+  
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(46,10): error C2144: syntax error: 'void' should be preceded by ';'
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(47,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(46,1): error C2086: 'int internal': redefinition
+  C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(13,1):
+  see declaration of 'internal'
+  
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(47,1): error C2182: 'simulate_game': this use of 'void' is not valid
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(47,15): error C2065: 'Input': undeclared identifier
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(47,22): error C2065: 'input': undeclared identifier
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(47,29): error C2062: type 'float' unexpected
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(48,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(48,1): error C2447: '{': missing function header (old-style formal list?)
+  platform_common.cpp
+  win32_platform.cpp
 C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\renderer.cpp(53,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
@@ -11,8 +33,9 @@ C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Ga
 C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\renderer.cpp(56,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'win32_platform.cpp')
   
-  Generating code
-  Previous IPDB was built with incompatible compiler, fall back to full compilation.
-  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  My_First_Cpp_Game.vcxproj -> C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\x64\Release\My_First_Cpp_Game.exe
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(107,2): error C3861: 'draw_number': identifier not found
+  (compiling source file 'win32_platform.cpp')
+  
+C:\Users\baldr\OneDrive\Desktop\MyCPP\PongGame\My_First_Cpp_Game\My_First_Cpp_Game\game.cpp(108,2): error C3861: 'draw_number': identifier not found
+  (compiling source file 'win32_platform.cpp')
+  
